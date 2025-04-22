@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-interface ExperienceItem {
+interface ExperienceData {
   company: string;
   role: string;
   period: string;
@@ -9,7 +9,7 @@ interface ExperienceItem {
 }
 
 const Experience: React.FC = () => {
-  const experiences: ExperienceItem[] = [
+  const experiences: ExperienceData[] = [
     {
       company: "Grasim Industries Limited (ABG)",
       role: "IT Intern",
